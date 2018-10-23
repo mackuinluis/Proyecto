@@ -41,7 +41,7 @@ namespace demomvc.Controllers
         // POST: Usuarios/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Nombre","Apellidos","Usu","Contraseña","Correo","Celular","Nacimiento")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("Nombre","Apellidos","Usu","Contraseña","ConfirmarContraseña","Correo","Celular","Nacimiento")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {
@@ -56,7 +56,9 @@ namespace demomvc.Controllers
         public IActionResult Login()
         {
             return View();
+        
         }
+             
 
     }
 }

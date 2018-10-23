@@ -9,6 +9,7 @@ CREATE TABLE "Usuario" (
     "Apellidos" TEXT NULL
     "Usu" TEXT NULL
     "Contraseña" TEXT NULL
+    "ConfirmarContraseña" TEXT NULL
     "Correo" TEXT NULL
     "Celular" TEXT NULL
     "Nacimiento" TEXT NULL

@@ -12,7 +12,10 @@ namespace demomvc.Models
         public string Nombre { get; set; }
         public string Apellidos { get; set; }
         public string Usu { get; set; }
+        
         public string Contraseña { get; set; }
+        [Compare(nameof(Contraseña))] 
+        public string ConfirmarContraseña { get; set;}
         public string Correo { get; set; }
         public string Celular { get; set; }
         public string Nacimiento { get; set; }
