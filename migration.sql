@@ -13,6 +13,26 @@ CREATE TABLE "Usuario" (
     "Celular" TEXT NULL
     "Nacimiento" TEXT NULL
 );
+
+CREATE TABLE "Factura" (
+    "Id" TEXT NOT NULL CONSTRAINT "PK_Usuario" PRIMARY KEY,
+    "CodigoFactura" TEXT NULL
+    "PlacaTracto" TEXT NULL
+    "PlacaCarreta" TEXT NULL
+    "CodigoConductor" TEXT NULL
+    "Origen" TEXT NULL
+    "Celular" TEXT NULL
+    "FechaSalida" TEXT NULL
+    "Destino" TEXT NULL
+    "FechaDestino" TEXT NULL
+    "codigoCarga" TEXT NULL
+    "FechaEntregaDocumento" TEXT NULL
+    "MontoFacturado" TEXT NULL
+    "Estado" TEXT NULL
+    "FechaCobrado" TEXT NULL
+    "MontoCobrado" TEXT NULL
+);
+
 INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
 VALUES ('20181010130110_InitialCreate', '2.0.3-rtm-10026');
 

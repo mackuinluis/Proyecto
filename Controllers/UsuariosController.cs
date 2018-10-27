@@ -58,5 +58,39 @@ namespace demomvc.Controllers
             return View();
         }
 
+        public IActionResult Perfil()
+        {
+            return View();
+        }
+
+        public IActionResult Empresa()
+        {
+            return View();
+        }
+
+        public IActionResult VerEmpresa()
+        {
+            return View();
+        }
+
+        public IActionResult ModificarFactura()
+        {
+            return View();
+        }
+        
+        public IActionResult EliminarFactura()
+        {
+            return View();
+        }
+
+        public IActionResult RegistrarFactura()
+        {
+            return View();
+        }
+
+        public IActionResult VerFactura()
+        {
+            return View();
+        }
     }
 }
