@@ -18,6 +18,7 @@ namespace demomvc.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.0.3-rtm-10026");
 
+<<<<<<< HEAD
             modelBuilder.Entity("demomvc.Models.Factura", b =>
                 {
                     b.Property<int>("ID")
@@ -58,6 +59,8 @@ namespace demomvc.Migrations
                     b.ToTable("Factura");
                 });
 
+=======
+>>>>>>> d7a7f2ef9b0bb16fd346f899115cf858c3038eb8
             modelBuilder.Entity("demomvc.Models.Usuario", b =>
                 {
                     b.Property<int>("ID")
@@ -67,6 +70,11 @@ namespace demomvc.Migrations
 
                     b.Property<string>("Celular");
 
+<<<<<<< HEAD
+=======
+                    b.Property<string>("ConfirmarContraseña");
+
+>>>>>>> d7a7f2ef9b0bb16fd346f899115cf858c3038eb8
                     b.Property<string>("Contraseña");
 
                     b.Property<string>("Correo");

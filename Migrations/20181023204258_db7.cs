@@ -16,6 +16,10 @@ namespace demomvc.Migrations
                         .Annotation("MySQL:AutoIncrement", true),
                     Apellidos = table.Column<string>(nullable: true),
                     Celular = table.Column<string>(nullable: true),
+<<<<<<< HEAD:Migrations/20181022045714_db7.cs
+=======
+                    ConfirmarContraseña = table.Column<string>(nullable: true),
+>>>>>>> d7a7f2ef9b0bb16fd346f899115cf858c3038eb8:Migrations/20181023204258_db7.cs
                     Contraseña = table.Column<string>(nullable: true),
                     Correo = table.Column<string>(nullable: true),
                     Nacimiento = table.Column<string>(nullable: true),

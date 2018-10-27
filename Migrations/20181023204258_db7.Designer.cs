@@ -10,7 +10,11 @@ using System;
 namespace demomvc.Migrations
 {
     [DbContext(typeof(MvcContext))]
+<<<<<<< HEAD:Migrations/20181022045714_db7.Designer.cs
     [Migration("20181022045714_db7")]
+=======
+    [Migration("20181023204258_db7")]
+>>>>>>> d7a7f2ef9b0bb16fd346f899115cf858c3038eb8:Migrations/20181023204258_db7.Designer.cs
     partial class db7
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,6 +32,11 @@ namespace demomvc.Migrations
 
                     b.Property<string>("Celular");
 
+<<<<<<< HEAD:Migrations/20181022045714_db7.Designer.cs
+=======
+                    b.Property<string>("ConfirmarContraseña");
+
+>>>>>>> d7a7f2ef9b0bb16fd346f899115cf858c3038eb8:Migrations/20181023204258_db7.Designer.cs
                     b.Property<string>("Contraseña");
 
                     b.Property<string>("Correo");
